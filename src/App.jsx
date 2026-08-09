@@ -1,18 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
-import DopsPage from './assets/Pages/DopsAI/DopsPage'
+import { Routes, Route } from "react-router-dom";
+
+import DopsPage from "./assets/Pages/DopsAI/DopsPage";
+import CareersHero from "./assets/Pages/Career/CareerHome/CareersHero";
+import JobDetails from "./assets/Components/JOBS/JobDetails";
+import JobApplication from "./assets/Components/JOBS/JobApplication";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    <DopsPage/>
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<DopsPage />} />
+       <Route path="/careers" element={<CareersHero />} />
+       <Route path="/careers/ai-research" element={< JobDetails/>} />
+       <Route path="/careers/apply/ai-research" element={< JobApplication/>} />
+
+    </Routes>
+
+    // Footer Section
+    // Company
+
+     
+     
+    
+
+  );
 }
 
-export default App
+export default App;

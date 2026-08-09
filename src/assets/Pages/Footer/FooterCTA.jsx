@@ -17,14 +17,14 @@ export default function FooterCTA() {
               />
 
               <span className="text-3xl font-semibold text-white">
-                DopsAI
+                DopsHGI
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="mt-6 text-5xl font-semibold leading-tight text-white lg:text-6xl">
-              Innovation Intelligence
-              <br />
+              Innovating Intelligence
+              
               of Future
             </h2>
 

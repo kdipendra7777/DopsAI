@@ -1,112 +1,121 @@
+import { Link } from "react-router-dom";
 import FooterCTA from "./FooterCTA";
 
 const footerLinks = [
   {
     title: "Research",
     links: [
-      "HGI Research",
-      "Publications",
-      "Safety",
-      "Benchmarks",
-      "Models",
-      "Alignment",
-      "Research Blog",
+      { name: "HGI Research", path: "/research" },
+      { name: "Publications", path: "/publications" },
+      { name: "Safety", path: "/safety" },
+      { name: "Benchmarks", path: "/benchmarks" },
+      { name: "Models", path: "/models" },
+      { name: "Alignment", path: "/alignment" },
+      { name: "Research Blog", path: "/research/blog" },
     ],
   },
+
   {
     title: "Models",
     links: [
-      "Dops-1",
-      "Dops-Reasoner",
-      "Multimodal",
-      "Embeddings",
-      "Vision",
-      "Speech",
-      "API Models",
+      { name: "Dops-1", path: "/models/dops-1" },
+      { name: "Dops-Reasoner", path: "/models/dops-reasoner" },
+      { name: "Multimodal", path: "/models/multimodal" },
+      { name: "Embeddings", path: "/models/embeddings" },
+      { name: "Vision", path: "/models/vision" },
+      { name: "Speech", path: "/models/speech" },
+      { name: "API Models", path: "/models/api" },
     ],
   },
+
   {
     title: "Products",
     links: [
-      "Chat",
-      "Workspace",
-      "API Platform",
-      "Enterprise",
-      "Education",
-      "Mobile App",
-      "Pricing",
+      { name: "Chat", path: "/products/chat" },
+      { name: "Workspace", path: "/products/workspace" },
+      { name: "API Platform", path: "/products/api" },
+      { name: "Enterprise", path: "/enterprise" },
+      { name: "Education", path: "/education" },
+      { name: "Mobile App", path: "/products/mobile" },
+      { name: "Pricing", path: "/pricing" },
     ],
   },
+
   {
     title: "Business",
     links: [
-      "Enterprise",
-      "Startups",
-      "Universities",
-      "Government",
-      "Healthcare",
-      "Partners",
-      "Contact Sales",
+      { name: "Enterprise", path: "/enterprise" },
+      { name: "Startups", path: "/business/startups" },
+      { name: "Universities", path: "/business/universities" },
+      { name: "Government", path: "/business/government" },
+      { name: "Healthcare", path: "/business/healthcare" },
+      { name: "Partners", path: "/partners" },
+      { name: "Contact Sales", path: "/contact-sales" },
     ],
   },
+
   {
     title: "Developers",
     links: [
-      "Documentation",
-      "API Reference",
-      "SDKs",
-      "Playground",
-      "Changelog",
-      "Status",
-      "Community",
+      { name: "Documentation", path: "/developers/docs" },
+      { name: "API Reference", path: "/developers/api-reference" },
+      { name: "SDKs", path: "/developers/sdks" },
+      { name: "Playground", path: "/developers/playground" },
+      { name: "Changelog", path: "/developers/changelog" },
+      { name: "Status", path: "/status" },
+      { name: "Community", path: "/community" },
     ],
   },
+
   {
     title: "Education",
     links: [
-      "AI Academy",
-      "Learning Paths",
-      "Tutorials",
-      "Certifications",
-      "Student Program",
-      "Research Grants",
-      "Educator Resources",
+      { name: "AI Academy", path: "/education/academy" },
+      { name: "Learning Paths", path: "/education/learning-paths" },
+      { name: "Tutorials", path: "/education/tutorials" },
+      { name: "Certifications", path: "/education/certifications" },
+      { name: "Student Program", path: "/education/students" },
+      { name: "Research Grants", path: "/education/grants" },
+      { name: "Educator Resources", path: "/education/educators" },
     ],
   },
+
   {
     title: "Company",
     links: [
-      "About",
-      "Careers",
-      "Newsroom",
-      "Blog",
-      "Brand Assets",
-      "Contact",
-      "Security",
+      { name: "About", path: "/about" },
+      { name: "Careers", path: "/careers" },
+      { name: "Newsroom", path: "/newsroom" },
+      { name: "Blog", path: "/blog" },
+      { name: "Brand Assets", path: "/brand" },
+      { name: "Contact", path: "/contact" },
+      { name: "Security", path: "/security" },
     ],
   },
+
   {
     title: "Legal",
     links: [
-      "Privacy Policy",
-      "Terms of Use",
-      "Cookie Policy",
-      "Responsible AI",
-      "Acceptable Use Policy",
-      "Copyright",
-      "Compliance",
+      { name: "Privacy Policy", path: "/legal/privacy" },
+      { name: "Terms of Use", path: "/legal/terms" },
+      { name: "Cookie Policy", path: "/legal/cookies" },
+      { name: "Responsible AI", path: "/legal/responsible-ai" },
+      { name: "Acceptable Use Policy", path: "/legal/acceptable-use" },
+      { name: "Copyright", path: "/legal/copyright" },
+      { name: "Compliance", path: "/legal/compliance" },
     ],
   },
+
   {
     title: "Datasets",
     links: [
-      "Text Datasets",
-      "Image Datasets",
-      "Audio Datasets",
-      "Video Datasets",
-      "Multimodal Datasets",
-      "Benchmark Datasets",
-      "Open Datasets",
+      { name: "Text Datasets", path: "/datasets/text" },
+      { name: "Image Datasets", path: "/datasets/image" },
+      { name: "Audio Datasets", path: "/datasets/audio" },
+      { name: "Video Datasets", path: "/datasets/video" },
+      { name: "Multimodal Datasets", path: "/datasets/multimodal" },
+      { name: "Benchmark Datasets", path: "/datasets/benchmarks" },
+      { name: "Open Datasets", path: "/datasets/open" },
     ],
   },
 ];
@@ -122,22 +131,22 @@ export default function Footer() {
       {/* Top */}
       <div className="pointer-events-none absolute left-0 right-0 top-8 border-t-2 border-dotted border-zinc-700" />
 
+      {/* Top CTA Separator */}
       <div className="pointer-events-none absolute left-0 right-0 top-30 border-t-2 border-dotted border-zinc-700" />
 
+      {/* Footer Links Separator */}
       <div className="pointer-events-none absolute left-0 right-0 top-170 border-t-2 border-dotted border-zinc-700" />
 
       {/* Bottom */}
-<div className="pointer-events-none absolute bottom-12 left-0 right-0 border-t-2 border-dotted border-zinc-700" />
+      <div className="pointer-events-none absolute bottom-8 left-0 right-0 border-t-2 border-dotted border-zinc-700" />
 
-<div className="pointer-events-none absolute bottom-33 left-0 right-0 border-t-2 border-dotted border-zinc-700" />
+      <div className="pointer-events-none absolute bottom-33 left-0 right-0 border-t-2 border-dotted border-zinc-700" />
 
       {/* Left */}
-    
-<div className="pointer-events-none absolute bottom-0 left-12 top-8 border-l-2 border-dotted border-zinc-700" />
+      <div className="pointer-events-none absolute bottom-8 left-8 top-8 border-l-2 border-dotted border-zinc-700" />
 
       {/* Right */}
-     
-<div className="pointer-events-none absolute bottom-0 right-12 top-8 border-r-2 border-dotted border-zinc-700" />
+      <div className="pointer-events-none absolute bottom-8 right-8 top-8 border-r-2 border-dotted border-zinc-700" />
 
       {/* ============================= */}
       {/* Main Footer */}
@@ -164,16 +173,17 @@ export default function Footer() {
 
               <ul className="space-y-3">
                 {section.links.map((link) => (
-                  <li key={link}>
-                    <a
-                      href="#"
+                  <li key={link.name}>
+                    <Link
+                      to={link.path}
                       className="group inline-flex items-center text-sm text-zinc-500 transition-all duration-300 hover:translate-x-1 hover:text-white"
                     >
-                      {link}
-                    </a>
+                      {link.name}
+                    </Link>
                   </li>
                 ))}
               </ul>
+
             </div>
           ))}
         </div>
@@ -193,67 +203,76 @@ export default function Footer() {
 
             {/* Legal */}
             <div className="flex flex-wrap gap-6 text-sm">
-              <a
-                href="#"
+
+              <Link
+                to="/legal/privacy"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Privacy
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/legal/terms"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Terms
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/legal/responsible-ai"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Responsible AI
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/accessibility"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Accessibility
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/security"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Security
-              </a>
+              </Link>
 
-              <a
-                href="#"
+              <Link
+                to="/status"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 Status
-              </a>
+              </Link>
+
             </div>
 
             {/* Social */}
             <div className="flex flex-wrap gap-6 text-sm">
+
               <a
-                href="#"
+                href="https://github.com"
+                target="_blank"
+                rel="noreferrer"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 GitHub
               </a>
 
               <a
-                href="#"
+                href="https://x.com"
+                target="_blank"
+                rel="noreferrer"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 X
               </a>
 
               <a
-                href="#"
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noreferrer"
                 className="text-zinc-500 transition-colors hover:text-white"
               >
                 LinkedIn
@@ -272,6 +291,7 @@ export default function Footer() {
               >
                 YouTube
               </a>
+
             </div>
 
           </div>
