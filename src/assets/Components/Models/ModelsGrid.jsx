@@ -23,7 +23,7 @@ export default function ModelsGrid() {
 
 
 <h1 className="font-manrope mt-6 text-[96px] font-semibold leading-[0.95] tracking-[0.04em] text-white">
-  Journey to AGI
+  Journey to HGI
 </h1>
 
   <p className="font-manrope mt-6 max-w-2xl text-[21px] font-normal leading-[1.7] text-white/80">

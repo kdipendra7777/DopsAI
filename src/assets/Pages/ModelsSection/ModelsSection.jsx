@@ -22,9 +22,8 @@ export default function ModelsSection() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-[18px] leading-8 text-[#6b7280]">
-              A family of AI models designed for reasoning, coding,
-              multimodal understanding and the future of Artificial
-              General Intelligence.
+             A family of intelligent systems built to learn, reason, adapt, and understand across modalities—advancing the pursuit of Human General Intelligence.
+
             </p>
           </div>
 

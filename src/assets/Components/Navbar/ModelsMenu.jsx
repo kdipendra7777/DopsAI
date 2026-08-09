@@ -30,7 +30,7 @@ export default function ModelsMenu() {
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
           Explore the next
           <br />
-          generation of AI models
+          generation of HGI models
         </h2>
 
 

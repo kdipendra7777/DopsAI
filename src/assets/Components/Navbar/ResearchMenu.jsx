@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 const items = [
-  { title: "AGI Research" },
+  { title: "HGI Research" },
   { title: "Research Labs" },
   { title: "Publications" },
   { title: "AI Safety" },
@@ -27,7 +27,7 @@ export default function ResearchMenu() {
         </p>
 
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
-          Building Artificial
+          Building Human
           <br />
           General Intelligence
         </h2>

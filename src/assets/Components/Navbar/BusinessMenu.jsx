@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 const items = [
-  { title: "Enterprise AI" },
+  { title: "Enterprise HgI" },
   { title: "Business Solutions" },
   { title: "Custom Models" },
   { title: "Contact Sales" },
@@ -26,7 +26,7 @@ export default function BusinessMenu() {
         </p>
 
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
-          AI built for
+          HGI built for
           <br />
           modern enterprises
         </h2>

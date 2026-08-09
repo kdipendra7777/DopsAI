@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 const items = [
-  { title: "ChatAGI" },
+  { title: "ChatHGI" },
   { title: "Dops API" },
   { title: "Developer Platform" },
   { title: "Enterprise Solutions" },
@@ -14,7 +14,7 @@ export default function ProductsMenu() {
       {/* Left */}
       <div className="col-span-4 border-r border-[#ececec]">
         <img
-          src="/images/NavImage/products.png"
+          src="/images/NavImage/product.png"
           alt="Products"
           className="h-full w-full object-cover"
         />
@@ -28,7 +28,7 @@ export default function ProductsMenu() {
         </p>
 
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
-          AI products built
+          HGI products built
           <br />
           for every workflow
         </h2>

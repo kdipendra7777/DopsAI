@@ -1,9 +1,9 @@
 import { ArrowRight } from "lucide-react";
 
 const researchItems = [
-  "AGI Research",
+  "HGI Research",
   "Publications",
-  "AI Safety",
+  "HGI Safety",
   "Research Blog",
 ];
 

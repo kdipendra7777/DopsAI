@@ -14,7 +14,7 @@ export default function EmergingTalent() {
               </h2>
 
               <h3 className="text-[38px] leading-[1] font-normal text-[#6b7a99] mt-3 whitespace-nowrap">
-                live with artificial general intelligence
+                with Human General Intelligence
               </h3>
             </div>
           </div>
@@ -28,9 +28,12 @@ export default function EmergingTalent() {
           {/* Left Text */}
           <div className="col-span-12 lg:col-span-4 border-r border-[#e5e5e5] px-12 py-12 flex items-start">
             <p className="text-[20px] leading-relaxed text-[#55627d] max-w-sm">
-              We're advancing Artificial General Intelligence by solving its
-  hardest problems—from persistent memory and continual learning
-  to autonomous reasoning and embodied intelligence.
+             Advancing Human General Intelligence by developing systems 
+              capable of learning, reasoning, remembering, adapting, and understanding 
+              with increasing human-like efficiency. Our mission is to move beyond 
+              data-intensive approaches to AI and advance toward the fundamental 
+              principles and capabilities that underpin human intelligence.
+
             </p>
           </div>
 

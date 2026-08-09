@@ -13,7 +13,7 @@ export default function DeveloperMenu() {
 
       <div className="col-span-4 border-r border-[#ececec]">
         <img
-          src="/images/NavImage/developer.png"
+          src="/images/NavImage/developers.png"
           alt="Developer"
           className="h-full w-full object-cover"
         />
@@ -28,7 +28,7 @@ export default function DeveloperMenu() {
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
           Build intelligent
           <br />
-          AI applications
+          HGI applications
         </h2>
 
         

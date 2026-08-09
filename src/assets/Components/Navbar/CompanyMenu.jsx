@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 const items = [
-  { title: "About DopsAI" },
+  { title: "About DopsHGI" },
   { title: "Our Mission" },
   { title: "Research Culture" },
   { title: "Careers" },
@@ -28,7 +28,7 @@ export default function CompanyMenu() {
         <h2 className="mt-2 text-[28px] leading-tight font-medium tracking-[-0.03em] text-[#111827]">
           Building the future
           <br />
-          of Artificial Intelligence
+          of Human General Intelligence
         </h2>
 
        

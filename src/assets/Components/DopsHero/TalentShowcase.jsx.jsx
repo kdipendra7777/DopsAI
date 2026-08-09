@@ -20,11 +20,11 @@ export default function TalentShowcase() {
           </div>
 
           <div className="font-medium text-gray-800">
-            ChatAGI
+            ChatHGI
           </div>
 
           <span className="text-sm text-gray-500">
-            AGI Preview
+           HGI Preview
           </span>
         </div>
 

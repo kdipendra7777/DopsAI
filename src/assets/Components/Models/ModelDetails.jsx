@@ -23,13 +23,13 @@ export default function ModelDetails() {
           <h2 className="mt-4 text-[52px] leading-tight font-medium tracking-[-0.04em] text-[#111827]">
             Built for reasoning,
             <br />
-            planning and AGI.
+            planning and HGI.
           </h2>
 
           <p className="mt-8 max-w-3xl text-[20px] leading-9 text-[#6b7280]">
             Dops One combines reasoning, coding, multimodal perception and
             long-context understanding to power the next generation of
-            intelligent systems.
+            Human General Intelligence systems.
           </p>
 
         </div>

@@ -24,9 +24,8 @@ export default function Navbar() {
               href="/"
               className="shrink-0 transition-opacity hover:opacity-80"
             >
-             <h1 className="select-none font-geist text-[24px] font-semibold tracking-[-0.06em] text-[#111827]">
-  DopsAI
-  
+            <h1 className="select-none font-geist text-[24px] font-semibold tracking-[0.02em] text-[#111827]">
+  DopsHGI
 </h1>
             </a>
 

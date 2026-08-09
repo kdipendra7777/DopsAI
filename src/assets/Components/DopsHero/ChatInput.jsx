@@ -13,7 +13,7 @@ export default function ChatInput() {
         {/* Input */}
         <input
           type="text"
-          placeholder="Ask ChatAGI anything..."
+          placeholder="Ask HGI anything..."
           className="flex-1 bg-transparent text-[15px] text-gray-800 placeholder:text-gray-400 outline-none"
         />
 
