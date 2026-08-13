@@ -57,7 +57,7 @@ export default function DopsPage() {
     
 
     <h1 className="mb-5 text-3xl font-semibold leading-tight tracking-tight text-white">
-      Please Open on
+      Unavailable for Phone
       <span className="block text-gray-400">
         Laptop or Desktop
       </span>
